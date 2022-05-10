@@ -31,7 +31,7 @@ public class TriangleTest {
 
     @CsvSource({ "5,-8,6 ","-10,-8,12","-10,-8,-12" })
 
-    void negativeLengthTest (int a, int b, int c) throws IncompatibleLengthException
+    void negativeLengthTest (int a, int b, int c)
     {
         Assertions.assertThrows(NegativeLengthException.class, () -> triangle.triangleSquare(a, b, c));
         j++;
@@ -41,9 +41,9 @@ public class TriangleTest {
 
     @ParameterizedTest
 
-    @CsvSource({ "5,8,60 ","10,8,-12","10,80,12" })
+    @CsvSource({ "5,8,60 ","10,8,120","10,80,12" })
 
-    void incompatibleLengthTest (int a, int b, int c) throws NegativeLengthException
+    void incompatibleLengthTest (int a, int b, int c)
     {
          Assertions.assertThrows(IncompatibleLengthException.class, () -> triangle.triangleSquare(a, b, c));
         k++;
