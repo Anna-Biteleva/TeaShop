@@ -1,9 +1,6 @@
 package org.biteleva;
 
-/**
- * Hello world!
- *
- */
+
 public class App 
 {
     public static void main( String[] args )
