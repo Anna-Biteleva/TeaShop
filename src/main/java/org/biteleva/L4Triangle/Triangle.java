@@ -4,7 +4,7 @@ package org.biteleva.L4Triangle;
 public class Triangle {
    public static void main(String[] args) throws NegativeLengthException, IncompatibleLengthException {
 
-        System.out.println(triangleSquare (10,8,12)); }
+        System.out.println(triangleSquare (10,9,12)); }
 
 
 
