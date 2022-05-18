@@ -10,7 +10,7 @@ public class TriangleTest {
 
     static Logger logger = LoggerFactory.getLogger(TriangleTest.class);
 
-    Triangle triangle = new Triangle();
+   // Triangle triangle = new Triangle();
 
     static int i = 0;
     static int j = 0;
@@ -21,7 +21,7 @@ public class TriangleTest {
 
     void positiveTest (int a, int b, int c, double abrResult) throws NegativeLengthException, IncompatibleLengthException {
 
-        Assertions.assertEquals(abrResult, triangle.triangleSquare(a, b, c));
+        Assertions.assertEquals(abrResult, Triangle.triangleSquare(a, b, c));
         i++;
         logger.info("Позитивный тест N"+i + " прошел" );
 
@@ -33,7 +33,7 @@ public class TriangleTest {
 
     void negativeLengthTest (int a, int b, int c)
     {
-        Assertions.assertThrows(NegativeLengthException.class, () -> triangle.triangleSquare(a, b, c));
+        Assertions.assertThrows(NegativeLengthException.class, () -> Triangle.triangleSquare(a, b, c));
         j++;
         logger.info("Тест N"+j + " на NegativeLengthException прошел" );
 
@@ -45,7 +45,7 @@ public class TriangleTest {
 
     void incompatibleLengthTest (int a, int b, int c)
     {
-         Assertions.assertThrows(IncompatibleLengthException.class, () -> triangle.triangleSquare(a, b, c));
+         Assertions.assertThrows(IncompatibleLengthException.class, () -> Triangle.triangleSquare(a, b, c));
         k++;
         logger.info("Тест N"+ k + " на IncompatibleLengthException прошел" );
 
