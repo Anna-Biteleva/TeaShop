@@ -36,7 +36,6 @@ public class AllTest extends AbstractTest {
 
        // new WebDriverWait(getDriver(), Duration.ofSeconds(10)).until(ExpectedConditions.urlContains("https://artoftea.ru"));
 
-        //Actions search = new Actions(getDriver());
 
         search.click(getDriver().findElement(By.name("search")))
                 .sendKeys(getDriver().findElement(By.name("search")), "ГАБА")
@@ -63,7 +62,6 @@ public class AllTest extends AbstractTest {
     @Test
     void  VkTest () {
 
-        new WebDriverWait(getDriver(), Duration.ofSeconds(10)).until(ExpectedConditions.urlContains("https://artoftea.ru"));
 
         WebElement webElement1 = getDriver().findElement(By.cssSelector(".topbar_inner .socsetii-vk > .fa"));
         webElement1.click();
