@@ -13,7 +13,7 @@ import java.time.Duration;
 public class ContactTest extends AbstractTest{
 
     @Test
-    void Auth(){
+    void ContactTest(){
 
         WebElement webElement1 = getDriver().findElement(By.xpath("\n" +
                 "//*[@id=\"menu\"]/div/nav/div/div[2]/ul/li[7]/a\n"));

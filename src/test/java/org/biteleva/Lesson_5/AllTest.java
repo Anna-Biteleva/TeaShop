@@ -75,7 +75,6 @@ public class AllTest extends AbstractTest {
     @Test
     void YouTest () {
 
-        getDriver().manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
 
         WebElement webElement1 = getDriver().findElement(By.cssSelector(".topbar_inner .socsetii-youtube > .fa"));
         webElement1.click();
@@ -86,7 +85,7 @@ public class AllTest extends AbstractTest {
     }
 
     @Test
-    void Auth() {
+    void ContactTest () {
 
         WebElement webElement1 = getDriver().findElement(By.xpath("\n" +
                 "//*[@id=\"menu\"]/div/nav/div/div[2]/ul/li[7]/a\n"));
