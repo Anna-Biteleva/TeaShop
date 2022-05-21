@@ -12,7 +12,7 @@ public class BonusTest extends AbstractTest{
     WebElement webElement1 = getDriver().findElement(By.xpath("(//a[contains(text(),'Бонусы')])[2]"));
     webElement1.click();
     Assertions.assertTrue(getDriver().getCurrentUrl().contains("https://artoftea.ru/avtomaticheskiy-uchet-skidok-po-karte-postoyannogo-pokupatelya"),
-            "Не удалось авторизоваться");
+            "Не удалось переключиться на страницу с бонусами");
 
     }
 }
