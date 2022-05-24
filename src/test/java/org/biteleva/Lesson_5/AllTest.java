@@ -66,8 +66,8 @@ public class AllTest extends AbstractTest {
         WebElement webElement1 = getDriver().findElement(By.cssSelector(".topbar_inner .socsetii-vk > .fa"));
         webElement1.click();
         Assertions.assertTrue(getDriver().getCurrentUrl().contains("https://vk.com/theartoftea"), "Не удалось перейти на страницу VK");
-        WebElement webElement2 = getDriver().findElement(By.xpath("//*[@id=\"page_info_wrap\"]/div/div/div[2]/div/a"));
-        webElement2.click();
+       // WebElement webElement2 = getDriver().findElement(By.xpath("//*[@id=\"page_info_wrap\"]/div/div/div[2]/div/a"));
+       // webElement2.click();
 
     }
 

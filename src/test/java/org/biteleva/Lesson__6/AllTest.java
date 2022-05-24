@@ -1,10 +1,10 @@
 package org.biteleva.Lesson__6;
 
-import com.fasterxml.jackson.core.JsonParser;
+
 import org.biteleva.Lesson6.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.WebDriver;
+
 
 public class AllTest extends AbstrTest {
 
@@ -22,7 +22,7 @@ authPage.authentication();
 
     SocialMedia socialMedia = new SocialMedia(getDriver());
     socialMedia.checkVK();
-     socialMedia.returnVK();
+    //socialMedia.returnVK();
      Assertions.assertTrue(getDriver().getCurrentUrl().contains("https://vk.com/theartoftea"),"Не удалось переключиться на страницу VK ");
 
 }

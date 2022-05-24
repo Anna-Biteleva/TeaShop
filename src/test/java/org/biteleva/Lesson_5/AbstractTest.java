@@ -25,7 +25,7 @@ public abstract class AbstractTest {
         options.addArguments("--incognito");
         options.addArguments("start-maximized");
         driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
     }
 
       @BeforeEach

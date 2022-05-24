@@ -1,0 +1,1 @@
+{"uuid":"91b42396-0935-4497-9939-4e3818b395ca","name":"Покупка","children":["fb40fde6-ca25-4f7e-874d-9ed65d07b4f4"],"befores":[{"name":"goTo","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1653412016361,"stop":1653412018779}],"afters":[],"start":1653412016355,"stop":1653412022813}

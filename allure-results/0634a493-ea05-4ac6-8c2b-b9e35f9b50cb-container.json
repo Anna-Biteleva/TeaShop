@@ -1,0 +1,1 @@
+{"uuid":"0634a493-ea05-4ac6-8c2b-b9e35f9b50cb","name":"Cкрин VK","children":["d41f23d6-1db5-49c8-8b75-a5bb477aa758"],"befores":[{"name":"goTo","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1653412540160,"stop":1653412541200}],"afters":[],"start":1653412540156,"stop":1653412546592}

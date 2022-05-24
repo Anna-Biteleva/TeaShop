@@ -1,0 +1,1 @@
+{"uuid":"ce52a9a2-104e-4e84-831d-8c8a7346c51b","name":"vkTest()","children":["2596851a-4466-4a40-9af8-ada57d5ea781"],"befores":[{"name":"goTo","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1653412089874,"stop":1653412097711}],"afters":[],"start":1653412089870,"stop":1653412104479}

@@ -20,7 +20,8 @@ public class VkTest extends AbstractTest {
     @Test
      void  VkTest () {
 
-        new WebDriverWait(getDriver(), Duration.ofSeconds(10)).until(ExpectedConditions.urlContains("https://artoftea.ru"));
+        new WebDriverWait(getDriver(),
+                Duration.ofSeconds(10)).until(ExpectedConditions.urlContains("https://artoftea.ru"));
 
         WebElement webElement1 = getDriver().findElement(By.cssSelector(".topbar_inner .socsetii-vk > .fa"));
         webElement1.click();
