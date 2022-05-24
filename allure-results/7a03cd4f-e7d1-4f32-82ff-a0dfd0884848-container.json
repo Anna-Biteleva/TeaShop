@@ -1,0 +1,1 @@
+{"uuid":"7a03cd4f-e7d1-4f32-82ff-a0dfd0884848","name":"Бонусы","children":["4e81f852-e358-408a-acc9-6cb02fc57619"],"befores":[{"name":"goTo","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1653414914300,"stop":1653414915230}],"afters":[],"start":1653414914297,"stop":1653414915838}

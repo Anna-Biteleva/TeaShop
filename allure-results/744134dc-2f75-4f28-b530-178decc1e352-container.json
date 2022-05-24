@@ -1,0 +1,1 @@
+{"uuid":"744134dc-2f75-4f28-b530-178decc1e352","name":"ВКонтакте","children":["cb7d3f1b-4082-4adf-a0df-2722271ebfd1"],"befores":[{"name":"goTo","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1653414870504,"stop":1653414871276}],"afters":[],"start":1653414870498,"stop":1653414875924}

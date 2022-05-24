@@ -1,0 +1,1 @@
+{"uuid":"2ffde63a-35c8-46a8-be70-ab358375116d","name":"Проверка логов","children":["447becad-abc7-4979-926f-d26d402526af"],"befores":[{"name":"goTo","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1653415786344,"stop":1653415791546}],"afters":[],"start":1653415786343,"stop":1653415791566}

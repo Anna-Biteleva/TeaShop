@@ -1,0 +1,1 @@
+{"uuid":"89beec1e-8696-4f74-b0e2-53622e1b4f1b","name":"Авторизация","children":["3b943a70-5530-40fe-bf71-88349ca74d6e"],"befores":[{"name":"goTo","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1653415825851,"stop":1653415827049}],"afters":[],"start":1653415825848,"stop":1653415829341}
